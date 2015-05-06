@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Boy</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<link rel="stylesheet" href="animate.min.css">
+<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Allan:bold" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lekton" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Molengo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Belleza" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Allura" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://i1301.photobucket.com/albums/ag119/jabattack1/headphonesINVERTED2_zpsuu9jvfmc.png">
+<body>
+
+<div id="logo_holder">
+</div>
+
+
+<script src="http://connect.soundcloud.com/sdk.js"></script>
+<script>
+
+SC.initialize({
+  client_id: '7e1e5d50b5f91b20d6880ec7c8a19fd4'
+});
+
+// stream track id 293
+SC.stream("/tracks/203941979", function(sound){
+  program = sound;
+});
+
+SC.stream("/tracks/203942252", function(sound){
+  micro = sound;
+});
+
+SC.stream("/tracks/203941955", function(sound){
+  stuck = sound;
+});
+</script>
+
+<script>
+	$('#logo_holder').append(logo);
+</script>
+
+<div id='banner' class='animated slideInRight'>
+
+<div id='menu-bar' class="list">
+<div class="grow" >
+<a href="/" id="AudioBoy" class='animated fadeIn' onClick="AudioBoy();return false;">Audio Boy / Rebel Solo</a>
+</div>
+<div class="grow2" >
+<a href="/" id="PeterHahn" class='animated fadeIn' onClick="PeterHahn();return false;">Peter Hahn</a>
+</div>
+<div class="grow3" >
+<a href="/" id="MV" class='animated fadeIn' onClick="MusicVideo();return false;">retro payback M/V</a>
+</div>
+<div class="grow4" >
+<a href="/" id="Contact" class='animated fadeIn' onClick="ContactInfor();return false;">Contact</a>
+</div>
+</div>
+
+</div>
+
+<div id='audioplayer' class='animated slideInLeft'>
+<p id='microtext'>1. microphone, rebel solo</p>
+<input id="play_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/play%20white_zps9jqcdxlw.png" alt="Submit" value="PLAY"  onclick="play_microphone();return false;">
+<input id="pause_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/pause%20white_zpsg5oadlwv.png" alt="Submit" value="PAUSE"  onclick="pause_microphone()">
+<input id="stop_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/stop%20white_zpsgq4jz76x.png" alt="Submit" value="STOP"  onclick="stop_microphone()">
+
+<!-- <audio id="audio_microphone" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+        <source type="audio/mp3" src="Supernova.mp3">
+        Sorry, your browser does not support HTML5 audio.
+</audio> -->
+
+<p id='stucktext'>2. 8 bit nemesis</p>
+<input id="play_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/play%20white_zps9jqcdxlw.png" alt="Submit" value="PLAY"  onclick="play_stuck();return false;">
+<input id="pause_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/pause%20white_zpsg5oadlwv.png" alt="Submit" value="PAUSE"  onclick="pause_stuck()">
+<input id="stop_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/stop%20white_zpsgq4jz76x.png" alt="Submit" value="STOP"  onclick="stop_stuck()">
+<!-- <audio id="audio_stuck" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+        <source type="audio/mp3" src="Supernova.mp3">
+        Sorry, your browser does not support HTML5 audio.
+</audio> -->
+
+<p id='programtext'>3. program</p>
+<input id="play_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/play%20white_zps9jqcdxlw.png" alt="Submit" value="PLAY"  onclick="play_program();return false;">
+<input id="pause_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/pause%20white_zpsg5oadlwv.png" alt="Submit" value="PAUSE"  onclick="pause_program()">
+<input id="stop_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/stop%20white_zpsgq4jz76x.png" alt="Submit" value="STOP"  onclick="stop_program()">
+<!-- <audio id="audio_program" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+        <source type="audio/mp3" src="Supernova.mp3">
+        Sorry, your browser does not support HTML5 audio.
+</audio>
+ -->
+<p href="/" id="MVplayer">4. retro payback M/V</p>
+<a href="/" onClick="MusicVideo();return false;"id="direction">Click to Play</a>
+
+</div>
+
+<div id="rights">
+  <h6 id="copyright">© 2015 Peter Hahn. All Rights Reserved.</h6>
+  <h6 id="cred">Website Design By Peter Hahn</h6>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
