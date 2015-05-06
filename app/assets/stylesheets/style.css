@@ -357,10 +357,10 @@ body {
 #video {
 	
   width: 855px;
-  margin-top:230px;
-  margin-left:20px;
+  margin-top:120px;
+  margin-left:30px;
   text-align: center;
-  z-index: 10;
+  z-index: 1;
   position:absolute;
 }
 
