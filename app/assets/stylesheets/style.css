@@ -420,11 +420,11 @@ body {
   	border-top-right-radius:10%;
 }
 
-#audio_microphone{
+#audio_program{
 	display:none;
 }
 
-#microtext{
+#programtext{
 	font-family: 'Orbitron', Georgia, Times, serif;
 	position:absolute;
 	font-size: 15px;
@@ -433,7 +433,7 @@ body {
 	color:white;
 }
 
-#play_microphone{
+#play_program{
 	margin-left:270px;
 	margin-top: 13px;
 	position:absolute;
@@ -459,7 +459,7 @@ body {
 	position:absolute;
 }*/
 
-#pause_microphone{
+#pause_program{
 	margin-left:300px;
 	margin-top: 13px;
 	position:absolute;
@@ -476,7 +476,7 @@ body {
 	width: 20px;
 }
 
-#stop_microphone{
+#stop_program{
 	margin-left:330px;
 	margin-top: 13px;
 	position:absolute;
@@ -557,11 +557,11 @@ body {
 	width: 20px;
 }
 
-#audio_program{
+#audio_microphone{
 	display:none;
 }
 
-#programtext{
+#microtext{
 	font-family: 'Orbitron', Georgia, Times, serif;
 	position:absolute;
 	font-size: 15px;
@@ -570,7 +570,7 @@ body {
 	color:white;
 }
 
-#play_program{
+#play_microphone{
 	margin-top:73px;
 	margin-left:270px;
 	position:absolute;
@@ -587,7 +587,7 @@ body {
 	width: 20px;
 }
 
-#pause_program{
+#pause_microphone{
 	margin-top:73px;
 	margin-left:300px;
 	position:absolute;
@@ -604,7 +604,7 @@ body {
 	width: 20px;
 }
 
-#stop_program{
+#stop_microphone{
 	margin-top:73px;
 	margin-left:330px;
 	position:absolute;

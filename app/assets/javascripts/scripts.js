@@ -65,7 +65,7 @@ function play_microphone(){
     $('#circle1').remove();
     $('#circle2').remove();
     $('#circle3').remove();
-    $('#audioplayer').append(circle1);
+    $('#audioplayer').append(circle3);
     $('#content').empty();
     $('#video').empty();
     $('#content').append(RebelSolo);
@@ -139,7 +139,7 @@ function play_program(){
     $('#circle1').remove();
     $('#circle2').remove();
     $('#circle3').remove();
-    $('#audioplayer').append(circle3);
+    $('#audioplayer').append(circle1);
     $('#content').empty();
     $('#video').empty();
     $('#content').append(scene);
