@@ -85,7 +85,7 @@ body {
   	border-bottom-right-radius:10%;
   	border-top-left-radius:10%;
   	border-top-right-radius:10%;
-  	
+
   	z-index: -1;
     
 }
@@ -264,6 +264,7 @@ body {
 
 #audiopeter {
 	position:absolute;
+	color: white;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	text-shadow:
@@ -278,6 +279,7 @@ body {
 
 #audiodo {
 	position:absolute;
+	color: white;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	text-shadow:
@@ -292,6 +294,7 @@ body {
 
 #peterdo {
 	position:absolute;
+	color: white;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	/*width: 355px;*/
@@ -307,6 +310,7 @@ body {
 
 #contactpeter {
 	position:absolute;
+	color: white;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	text-shadow:
