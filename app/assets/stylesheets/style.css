@@ -81,11 +81,12 @@ body {
   	overflow-x:none;
   	overflow-y: none;
   	/*padding-right: 28px;*/
-  	/*border-bottom-left-radius:10%;
+  	border-bottom-left-radius:10%;
   	border-bottom-right-radius:10%;
   	border-top-left-radius:10%;
   	border-top-right-radius:10%;
-*/  	z-index: -1;
+  	
+  	z-index: -1;
     
 }
 
