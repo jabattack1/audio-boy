@@ -53,6 +53,10 @@ function MusicVideo(){
     $('#video').append(MV);
 }
 
+function ridmv(){
+    $('#video').empty();
+}
+
 function play_microphone(){
     var audio = document.getElementById("audio_microphone");
     var audio1 = document.getElementById("audio_stuck");
