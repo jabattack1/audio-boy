@@ -1,6 +1,6 @@
 var tv ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/offair%20fast_zpsa4xnexhu.gif' id='tv'>";
-var offair ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/offair_zpsqxtb8goq.png' id='offair'>";
-var flash = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/offairflash_zpsfkgrvwmi.gif' id='flash'>"
+var offair ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/retro%20offair_zpsp65w34wa.gif' id='offair'>";
+var flash = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/retro%20offair_zpsp65w34wa.gif' id='flash'>"
 var logo ="<a href=\"/\" class='animated fadeIn' onClick=\"home();return false;\"><img src='http://i1301.photobucket.com/albums/ag119/jabattack1/headphonesINVERTED2_zpsuu9jvfmc.png' id='logo' class='animated slideInDown'></a>";
 
 var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Audio Boy = Rebel Solo</h2><h2 id='audiodo' class='animated fadeIn'>Audio Boy = Peter Hahn</h2>"
@@ -21,7 +21,7 @@ var circle3 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIR
 function home(){
     $('#content').empty();
     $('#video').empty();
-    $('#content').append(flash);
+    $('#content').append(offair);
 }
 
 function AudioBoy(){
