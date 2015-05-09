@@ -21,7 +21,7 @@ var circle3 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIR
 function home(){
     $('#content').empty();
     $('#video').empty();
-    $('#content').append(offair);
+    $('#content').append(tv);
 }
 
 function AudioBoy(){
