@@ -9,7 +9,7 @@ var ContactInfo ="<div id='gel4'><h2 id='contactpeter' class='animated fadeIn'>5
 var MV ="<iframe class='animated slideInUp' width=\"660\" height=\"415\" src=\"https://www.youtube.com/embed/etAH9IhStBc\" frameborder=\"0\" allowfullscreen></iframe>"
 var headshot = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/phat_zpsnq9fh8qf.jpg' class='animated fadeIn' id='photo'>";
 var RebelSolo ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/the%20grid_zpsftdfm6uu.gif' class='animated fadeIn' id='RebelSolo'>";
-var stuckgraph ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/sound%20_zps0rnvnuuu.gif' class='animated fadeIn' id='stuckgraph'>";
+var stuckgraph ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/wonders_zpsitueonqh.gif' class='animated fadeIn' id='stuckgraph'>";
 var scene ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/alone_zpsuq76gojr.gif' class='animated fadeIn' id='scene'>";
 var circle1 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIRCLE_zps84mtikcr.png' id='circle1'>";
 var circle2 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIRCLE_zps84mtikcr.png' id='circle2'>";
