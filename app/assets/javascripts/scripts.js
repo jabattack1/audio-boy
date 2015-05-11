@@ -47,7 +47,9 @@ function ContactInfor(){
 }
 
 function MusicVideo(){
-
+    stuck.stop();
+    program.stop();
+    micro.stop();
     // $('#content').empty();
     $('#video').empty();
     $('#video').append(MV);
