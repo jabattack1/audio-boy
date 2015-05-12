@@ -6,7 +6,10 @@ var logo ="<a href=\"/\" class='animated fadeIn' onClick=\"home();return false;\
 
 var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Audio Boy = Rebel Solo</h2><h2 id='audiodo' class='animated fadeIn'>Audio Boy = Peter Hahn</h2>"
 var PeterHahnInfo ="<div id='gel2'><h2 id='peterdo' class='animated fadeIn'>Peter Hahn = Songwriter/Producer/<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSinger/Musician</h2></div>"
+
+var contact ="<a href=\"mailto:peter.hahn@live.com\" class='animated fadeIn' id='contact_email'>peter.hahn@live.com</a>"
 var ContactInfo ="<div id='gel4'><h2 id='contactpeter' class='animated fadeIn'>551 689 3517</h2></div>"
+
 var MV ="<iframe class='animated slideInUp' width=\"660\" height=\"415\" src=\"https://www.youtube.com/embed/etAH9IhStBc\" frameborder=\"0\" allowfullscreen></iframe>"
 var headshot = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/phat_zpsnq9fh8qf.jpg' class='animated fadeIn' id='photo'>";
 var rebelphoto = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/rebel%20solo%20b_zpswglelpim.jpg' class='animated fadeIn' id='rebelphoto'>";
@@ -25,6 +28,7 @@ var peterback ="<img src='http://www.animated-gifs.eu/leisure-music-equalizers/0
 function home(){
     $('#content').empty();
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     $('#content').append(flash);
 }
 
@@ -32,6 +36,7 @@ function AudioBoy(){
 
     $('#content').empty();
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     $('#content').append(audioback);
     $('#content').append(AudioBoyInfo);
     $('#content').append(rebelphoto);
@@ -41,6 +46,7 @@ function PeterHahn(){
 
     $('#content').empty();
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     $('#content').append(peterback);
     $('#content').append(PeterHahnInfo);
     $('#content').append(headshot);
@@ -51,6 +57,8 @@ function ContactInfor(){
 
     $('#content').empty();
     $('#video').empty();
+    $("body").children("#contact_email").remove();
+    $('body').append(contact);
     $('#content').append(contactrunner);
     $('#content').append(ContactInfo);
 }
@@ -61,11 +69,13 @@ function MusicVideo(){
     micro.stop();
     // $('#content').empty();
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     $('#video').append(MV);
 }
 
 function ridmv(){
     $('#video').empty();
+    // $("body").children("#contact_email").remove();
 }
 
 function play_microphone(){
@@ -73,6 +83,7 @@ function play_microphone(){
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_program");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     program.stop();
     // micro.stop();
     stuck.stop();
@@ -89,6 +100,7 @@ function play_microphone(){
 function pause_microphone(){
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     micro.pause();
     $('#content').empty();
     $('#content').append(offair);
@@ -97,6 +109,7 @@ function pause_microphone(){
 function stop_microphone(){
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     micro.stop();
     $('#circle1').remove();
     // $('#circle2').remove();
@@ -110,6 +123,7 @@ function play_stuck(){
     var audio1 = document.getElementById("audio_microphone");
     var audio2 = document.getElementById("audio_program");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     program.stop();
     // stuck.stop();
     micro.stop();
@@ -126,6 +140,7 @@ function play_stuck(){
 function pause_stuck(){
     var audio = document.getElementById("audio_stuck");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     stuck.pause();
     $('#content').empty();
     $('#content').append(offair);
@@ -134,6 +149,7 @@ function pause_stuck(){
 function stop_stuck(){
     var audio = document.getElementById("audio_stuck");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     stuck.stop();
     // $('#circle1').remove();
     $('#circle2').remove();
@@ -147,6 +163,7 @@ function play_program(){
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_microphone");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     // program.stop();
     micro.stop();
     stuck.stop();
@@ -163,6 +180,7 @@ function play_program(){
 function pause_program(){
     var audio = document.getElementById("audio_program");
     $('#video').empty();
+    $("body").children("#contact_email").remove();
     program.pause();
     $('#content').empty();
     $('#content').append(offair);
@@ -171,6 +189,7 @@ function pause_program(){
 function stop_program(){
     var audio = document.getElementById("audio_program");
     program.stop();
+    $("body").children("#contact_email").remove();
     // $('#circle1').remove();
     // $('#circle2').remove();
     $('#circle3').remove();
