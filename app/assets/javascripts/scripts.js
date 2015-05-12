@@ -3,11 +3,13 @@ var offair ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/retr
 var flash = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/neon.jpg_zpsmei4z0zu.gif' id='flash'>"
 var logo ="<a href=\"/\" class='animated fadeIn' onClick=\"home();return false;\"><img src='http://i1301.photobucket.com/albums/ag119/jabattack1/headphonesINVERTED2_zpsuu9jvfmc.png' id='logo' class='animated slideInDown'></a>";
 
+
 var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Audio Boy = Rebel Solo</h2><h2 id='audiodo' class='animated fadeIn'>Audio Boy = Peter Hahn</h2>"
 var PeterHahnInfo ="<div id='gel2'><h2 id='peterdo' class='animated fadeIn'>Peter Hahn = Songwriter/Producer/<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSinger/Musician</h2></div>"
 var ContactInfo ="<div id='gel4'><h2 id='contactpeter' class='animated fadeIn'>551 689 3517</h2></div>"
 var MV ="<iframe class='animated slideInUp' width=\"660\" height=\"415\" src=\"https://www.youtube.com/embed/etAH9IhStBc\" frameborder=\"0\" allowfullscreen></iframe>"
 var headshot = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/phat_zpsnq9fh8qf.jpg' class='animated fadeIn' id='photo'>";
+var rebelphoto = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/rebel%20solo%20b_zpswglelpim.jpg' class='animated fadeIn' id='rebelphoto'>";
 var RebelSolo ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/microphone_zps9ae9ume5.gif' class='animated fadeIn' id='RebelSolo'>";
 var stuckgraph ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/wonders_zpsitueonqh.gif' class='animated fadeIn' id='stuckgraph'>";
 var scene ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/alone_zpsuq76gojr.gif' class='animated fadeIn' id='scene'>";
@@ -15,7 +17,9 @@ var circle1 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIR
 var circle2 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIRCLE_zps84mtikcr.png' id='circle2'>";
 var circle3 ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/CIRCLE_zps84mtikcr.png' id='circle3'>";
 
-
+var audioback ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/blackout_zps9nsa8hhk.gif' id='audioback'>";
+var contactrunner ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/runner_zpsrjhxs93t.gif' class='animated fadeIn' id='contactrunner'>";
+var peterback ="<img src='http://www.animated-gifs.eu/leisure-music-equalizers/0045.gif' id='peterback'>";
 
 
 function home(){
@@ -28,21 +32,26 @@ function AudioBoy(){
 
     $('#content').empty();
     $('#video').empty();
+    $('#content').append(audioback);
     $('#content').append(AudioBoyInfo);
+    $('#content').append(rebelphoto);
 }
 
 function PeterHahn(){
 
     $('#content').empty();
     $('#video').empty();
+    $('#content').append(peterback);
     $('#content').append(PeterHahnInfo);
     $('#content').append(headshot);
+
 }
 
 function ContactInfor(){
 
     $('#content').empty();
     $('#video').empty();
+    $('#content').append(contactrunner);
     $('#content').append(ContactInfo);
 }
 

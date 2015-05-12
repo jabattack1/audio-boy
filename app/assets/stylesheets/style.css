@@ -279,6 +279,13 @@ body {
 	margin-left:165px;
 }
 
+#rebelphoto {
+	width: 280px;
+	height: 250px;
+	margin-top: 160px;
+	margin-left:135px;
+}
+
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.08); }
 .grow2 { transition: all .2s ease-in-out; }
@@ -298,7 +305,7 @@ body {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 230px;
+    margin-top: 100px;
     margin-left:110px;
 
 }
@@ -313,7 +320,7 @@ body {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 170px;
+    margin-top: 50px;
     margin-left:110px;
 }
 
@@ -322,15 +329,15 @@ body {
 	position:absolute;
 	color: white;
 	font-family: 'Orbitron', Helvetica, Arial, sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	/*width: 355px;*/
 	text-shadow:
     -1px -1px 0 #000000,
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 45px;
-    margin-left:37px;
+    margin-top: 25px;
+    margin-left:100px;
     text-decoration: none;
 }
 
@@ -360,7 +367,7 @@ body {
 	margin-bottom: 0%;
 	overflow-x: none;
 	overflow-y: none;
-	background-color: #FF32EE;
+	/*background-color: #FF32EE;*/
 
 	border-bottom-left-radius:10%;
   	border-bottom-right-radius:10%;
@@ -378,7 +385,7 @@ body {
 	margin-bottom: 0%;
 	overflow-x: none;
 	overflow-y: none;
-	background-color: #35FFEE;
+	/*background-color: #35FFEE;*/
 	border-bottom-left-radius:10%;
   	border-bottom-right-radius:10%;
   	border-top-left-radius:10%;
@@ -405,7 +412,7 @@ body {
 	margin-bottom: 0%;
 	overflow-x: none;
 	overflow-y: none;
-	background-color: #3FFF65;
+	/*background-color: #3FFF65;*/
 	border-bottom-left-radius:10%;
   	border-bottom-right-radius:10%;
   	border-top-left-radius:10%;
@@ -437,6 +444,43 @@ body {
   	border-top-left-radius:10%;
   	border-top-right-radius:10%;
 }
+
+#contactrunner {
+	position:absolute;
+	height:100%;
+	width: 100%;
+	overflow-x: none;
+	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
+}
+
+#audioback {
+	position:absolute;
+	height:100%;
+	width: 100%;
+	overflow-x: none;
+	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
+}
+
+#peterback {
+	position:absolute;
+	height:100%;
+	width: 100%;
+	overflow-x: none;
+	overflow-y: none;
+	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
+}
+
 
 #scene{
 	position:absolute;
