@@ -82,7 +82,7 @@ function pause_microphone(){
     $('#video').empty();
     micro.pause();
     $('#content').empty();
-    $('#content').append(flash);
+    $('#content').append(offair);
 }
 
 function stop_microphone(){
@@ -119,7 +119,7 @@ function pause_stuck(){
     $('#video').empty();
     stuck.pause();
     $('#content').empty();
-    $('#content').append(flash);
+    $('#content').append(offair);
 }
 
 function stop_stuck(){
@@ -156,7 +156,7 @@ function pause_program(){
     $('#video').empty();
     program.pause();
     $('#content').empty();
-    $('#content').append(flash);
+    $('#content').append(offair);
 }
 
 function stop_program(){
