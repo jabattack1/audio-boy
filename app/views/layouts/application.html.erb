@@ -55,6 +55,10 @@ SC.stream("/tracks/205687613", function(sound){
 SC.stream("/tracks/203941955", function(sound){
   stuck = sound;
 });
+
+SC.stream("/tracks/205700677", function(sound){
+  mech = sound;
+});
 </script>
 
 <script>
@@ -109,9 +113,18 @@ SC.stream("/tracks/203941955", function(sound){
         Sorry, your browser does not support HTML5 audio.
 </audio>
  -->
-<p href="/" id="MVplayer">4. retro payback M/V</p>
-<p href="/" onClick="MusicVideo();return false;"id="direction">Click to Play</p>
 
+ <p id='mechtext'>4. mechanical</p>
+<input id="play_mech" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/play%20white_zps9jqcdxlw.png" alt="Submit" value="PLAY"  onclick="play_mech();return false;">
+<input id="pause_mech" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/pause%20white_zpsg5oadlwv.png" alt="Submit" value="PAUSE"  onclick="pause_mech()">
+<input id="stop_mech" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/stop%20white_zpsgq4jz76x.png" alt="Submit" value="STOP"  onclick="stop_mech()">
+<!-- <p href="/" id="MVplayer">4. retro payback M/V</p>
+<p href="/" onClick="MusicVideo();return false;"id="direction">Click to Play</p> -->
+
+</div>
+
+<div id='parental'>
+<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/parental-discretion-is-advised_zpsc1kipkd2.jpg' id='parentalsign'>
 </div>
 
 <div id="rights">
