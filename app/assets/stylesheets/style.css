@@ -33,15 +33,15 @@ body {
 }
 
 #logo {
-	height: 210px;
-	width: 210px;
-	margin-left:650px;
-	margin-top:20px;
+	height: 250px;
+	width: 250px;
+	margin-left:630px;
+	margin-top:10px;
 	z-index: 1; position:absolute;
-	outline-width: medium;
-	outline-color: white;
+	/*outline-width: medium;
+	outline-color: white;*/
 	
-  outline: #000000 solid medium;
+  /*outline: #000000 solid medium;*/
 }
 
 #banner {
